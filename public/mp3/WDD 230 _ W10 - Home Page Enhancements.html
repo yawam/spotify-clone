@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<!-- saved from url=(0068)https://byui-cse.github.io/wdd230-course/audit/l10-chamber-home.html -->
+<html lang="en-us"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WDD 230 | W10 - Home Page Enhancements</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com/">
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+  <link href="./WDD 230 _ W10 - Home Page Enhancements_files/css2" rel="stylesheet">
+  <link rel="stylesheet" href="./WDD 230 _ W10 - Home Page Enhancements_files/course.css">
+  <link rel="stylesheet" href="./WDD 230 _ W10 - Home Page Enhancements_files/standards.css">
+</head>
+
+<body data-new-gr-c-s-check-loaded="14.1163.0" data-gr-ext-installed="">
+  <header>
+    <div class="page">
+      <h1>WDD 230<span id="coursetitle"> - Web Frontend Development I</span></h1>
+    </div>
+  </header>
+  <main class="page">
+    <nav>
+  <span><a href="https://byui-cse.github.io/wdd230-course">Home</a></span>
+  <span><a href="https://byui-cse.github.io/wdd230-course/setup">⚙️</a></span>
+  <span><a href="https://byui-cse.github.io/wdd230-course/lesson01">1</a></span>
+  <span><a href="https://byui-cse.github.io/wdd230-course/lesson02">2</a></span>
+  <span><a href="https://byui-cse.github.io/wdd230-course/lesson03">3</a></span>
+  <span><a href="https://byui-cse.github.io/wdd230-course/lesson04">4</a></span>
+  <span><a href="https://byui-cse.github.io/wdd230-course/lesson05">5</a></span>
+  <span><a href="https://byui-cse.github.io/wdd230-course/lesson06">6</a></span>
+  <span><a href="https://byui-cse.github.io/wdd230-course/lesson07">7</a></span>
+  <span><a href="https://byui-cse.github.io/wdd230-course/lesson08">8</a></span>
+  <span><a href="https://byui-cse.github.io/wdd230-course/lesson09">9</a></span>
+  <span><a href="https://byui-cse.github.io/wdd230-course/lesson10">10</a></span>
+  <span><a href="https://byui-cse.github.io/wdd230-course/lesson11">11</a></span>
+  <span><a href="https://byui-cse.github.io/wdd230-course/lesson12">12</a></span>
+  <span><a href="https://byui-cse.github.io/wdd230-course/lesson13">13</a></span>
+  <span><a href="https://byui-cse.github.io/wdd230-course/lesson14">14</a></span></nav>
+    <h2>10: Chamber Home Audit</h2>
+    <div class="callout reference">
+      <label for="student">Enter your GitHub Username:</label>
+      <input type="text" id="student" placeholder="GitHub Username ONLY" required="" title="GitHub Username Required">
+      <button type="submit" id="getReport">Run Report</button>
+    </div>
+
+
+    <div id="report"><main>
+      <h3>w3.org Validation Tools</h3>
+      <div class="label">HTML</div>
+      <div class="data" id="hvalid">❌</div>
+      <div class="standard"> <span class="blue" id="htmlerrorscount">Errors: 1</span> 🔗<a href="https://validator.w3.org/check?verbose=1&amp;uri=sydneybohl.github.io/wdd230/chamber/" target="_blank">HTML Validation Link</a>
+      </div>
+
+      <div class="label">CSS</div>
+      <div class="data" id="cvalid">✅</div>
+      <div class="standard"><span class="blue" id="csserrorscount">Errors: 0</span> 🔗<a href="https://jigsaw.w3.org/css-validator/validator?uri=sydneybohl.github.io/wdd230/chamber/" target="_blank">CSS Validation Link</a>
+      </div>
+
+      <div class="label">Link Checker</div>
+      <div class="data">🔗</div>
+      <div class="standard"><a href="https://validator.w3.org/checklink?uri=sydneybohl.github.io/wdd230/chamber/&amp;hide_type=all&amp;depth=&amp;check=Check" target="_blank">w3.org Link Checker</a>
+      </div>
+
+      <h3>HTML Document</h3>
+      <div class="label">Document Type:</div>
+      <div class="data">✅</div>
+      <div class="standard">&lt;!DOCTYPE html&gt; or &lt;!doctype html&gt; <span class="blue">This should be on the first line.</span></div>
+
+      <div class="label">HTML Lang Attribute:</div>
+      <div class="data">✅</div>
+      <div class="standard">&lt;html lang="en-US"&gt; <span class="blue">Encases the entire document</span></div>
+
+      <div class="label">&lt;head&gt; element</div>
+      <div class="data">✅</div>
+      <div class="standard">&lt;head&gt; ... &lt;/head&gt; <span class="blue">Start tag and end tag before the &lt;body&gt; element</span></div>
+
+      <div class="label">&lt;body&gt; element</div>
+      <div class="data">✅</div>
+      <div class="standard">&lt;body&gt; ... &lt;/body&gt; <span class="blue">Closes before the closing &lt;/html&gt; element</span></div>
+
+      <h3>&lt;head&gt; Elements</h3>
+
+      <div class="label">Meta Charset:</div>
+      <div class="data">✅</div>
+      <div class="standard"><span class="blue">&lt;meta charset="UTF-8"&gt;</span></div>
+
+      <div class="label">Meta Viewport:</div>
+      <div class="data">✅</div>
+      <div class="standard"><span class="blue">&lt;meta name="viewport" content="width=device-width,initial-scale=1.0"&gt;</span></div>
+
+      <div class="label">&lt;title&gt;</div>
+      <div class="data">👀</div>
+      <div class="standard">WDD 230 - Cedarburg Chamber of Commerce - Sydney Bohl <span class="blue">Includes the characters 'Chamber of Commerce'</span></div>
+
+      <div class="label">Meta Description:</div>
+      <div class="data">👀</div>
+      <div class="standard">Sydney Bohl's Cedarburg Chamber of Commerce Website <span class="blue">Review for relevance</span></div>
+
+      <div class="label">Meta Author:</div>
+      <div class="data">✅</div>
+      <div class="standard">Sydney Bohl</div>
+
+      <div class="label">Favorite Icon:</div>
+      <div class="data">✅</div>
+      <div class="standard">images/favicon.ico <span class="blue">Check render.</span></div>
+
+      <div class="label">Meta OG Title</div>
+      <div class="data">✅</div>
+      <div class="standard">Cedarburg Chamber of Commerce Project</div>
+
+      <div class="label">Meta OG Type</div>
+      <div class="data">✅</div>
+      <div class="standard">website</div>
+
+      <div class="label">Meta OG Image</div>
+      <div class="data">✅</div>
+      <div class="standard"><a href="https://sydneybohl.github.io/wdd230/chamber/images/cedarburg.jpg" target="_blank">https://sydneybohl.github.io/wdd230/chamber/images/cedarburg.jpg</a> <span class="blue">Check Link</span></div>
+
+      <div class="label">Meta OG URL</div>
+      <div class="data">✅</div>
+      <div class="standard">https://sydneybohl.github.io/wdd230/chamber/index.html</div>
+
+      <div class="label">External CSS:</div>
+      <div class="data">✅</div>
+      <div class="standard"> https://fonts.googleapis.com/css2?family=Inter&amp;family=Raleway&amp;display=swap<br>styles/normalize.css<br>styles/base.css<br>styles/medium.css<br>styles/larger.css<br> : <span class="blue">3+: Check order</span></div>
+
+      <div class="label">Media Queries:</div>
+      <div class="data">📑</div>
+      <div class="standard">Total: 2, Unique: 2</div>
+
+      <h3>&lt;body&gt; Elements</h3>
+
+      <div class="label">&lt;header&gt;</div>
+      <div class="data">✅</div>
+      <div class="standard"></div>
+
+      <div class="label">&lt;nav&gt;</div>
+      <div class="data">✅</div>
+      <div class="standard"></div>
+
+      <div class="label">&lt;main&gt;</div>
+      <div class="data">✅</div>
+      <div class="standard"></div>
+
+      <div class="label">&lt;footer&gt;</div>
+      <div class="data">✅</div>
+      <div class="standard"></div>
+
+      <div class="label">&lt;h1&gt;</div>
+      <div class="data">✅</div>
+      <div class="standard">1 / 1 “Chamber of Commerce” <span class="blue">Must contain the city/municipality name and the words "Chamber of Commerce"</span></div>
+
+      <div class="label">srcset</div>
+      <div class="data">✅</div>
+      <div class="standard">srcset used</div>
+
+
+
+    </main></div>
+    
+    <div class="callout warning smaller" id="message" style="display: none;">
+      <span class="smaller">If you do not get a report, there may be something wrong with your
+        repository structure. <br>
+        <code class="plaintext">https://<em>yourgithubusername</em>.github.io/wdd230/chamber</code></span>
+    </div>
+  </main>
+
+  <footer>
+    <p>Copyright © Brigham Young University-Idaho | All rights reserved</p>
+  </footer>
+  <script src="./WDD 230 _ W10 - Home Page Enhancements_files/nav.js.download"></script>
+  <script src="./WDD 230 _ W10 - Home Page Enhancements_files/l10-chamber-home.js.download"></script>
+
+
+<div id="quizwiz-container"><template shadowrootmode="open"><head><style>.react-resizable {
+  position: relative;
+}
+.react-resizable-handle {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  box-sizing: border-box;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2IDYiIHN0eWxlPSJiYWNrZ3JvdW5kLWNvbG9yOiNmZmZmZmYwMCIgeD0iMHB4IiB5PSIwcHgiIHdpZHRoPSI2cHgiIGhlaWdodD0iNnB4Ij48ZyBvcGFjaXR5PSIwLjMwMiI+PHBhdGggZD0iTSA2IDYgTCAwIDYgTCAwIDQuMiBMIDQgNC4yIEwgNC4yIDQuMiBMIDQuMiAwIEwgNiAwIEwgNiA2IEwgNiA2IFoiIGZpbGw9IiMwMDAwMDAiLz48L2c+PC9zdmc+);
+  background-position: bottom right;
+  padding: 0 3px 3px 0;
+}
+.react-resizable-handle-sw {
+  bottom: 0;
+  left: 0;
+  cursor: sw-resize;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+.react-resizable-handle-se {
+  bottom: 0;
+  right: 0;
+  cursor: se-resize;
+}
+.react-resizable-handle-nw {
+  top: 0;
+  left: 0;
+  cursor: nw-resize;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+.react-resizable-handle-ne {
+  top: 0;
+  right: 0;
+  cursor: ne-resize;
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg);
+}
+.react-resizable-handle-w,
+.react-resizable-handle-e {
+  top: 50%;
+  margin-top: -10px;
+  cursor: ew-resize;
+}
+.react-resizable-handle-w {
+  left: 0;
+  -webkit-transform: rotate(135deg);
+          transform: rotate(135deg);
+}
+.react-resizable-handle-e {
+  right: 0;
+  -webkit-transform: rotate(315deg);
+          transform: rotate(315deg);
+}
+.react-resizable-handle-n,
+.react-resizable-handle-s {
+  left: 50%;
+  margin-left: -10px;
+  cursor: ns-resize;
+}
+.react-resizable-handle-n {
+  top: 0;
+  -webkit-transform: rotate(225deg);
+          transform: rotate(225deg);
+}
+.react-resizable-handle-s {
+  bottom: 0;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}</style><style>.react-resizable-handle {
+  z-index: 1000000000;
+}
+
+.react-resizable-handle-se {
+  right: 2px;
+}
+</style></head><div></div></template></div><div id="highlighter--hover-tools" style="display: none;">
+    <div id="highlighter--hover-tools--container">
+        <div class="highlighter--icon highlighter--icon-copy" title="Copy"></div>
+        <div class="highlighter--icon highlighter--icon-change-color" title="Change Color"></div>
+        <div class="highlighter--icon highlighter--icon-delete" title="Delete"></div>
+    </div>
+</div></body><grammarly-desktop-integration data-grammarly-shadow-root="true"><template shadowrootmode="open"><style>
+      div.grammarly-desktop-integration {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select:none;
+        user-select:none;
+      }
+
+      div.grammarly-desktop-integration:before {
+        content: attr(data-content);
+      }
+    </style><div aria-label="grammarly-integration" role="group" tabindex="-1" class="grammarly-desktop-integration" data-content="{&quot;mode&quot;:&quot;full&quot;,&quot;isActive&quot;:true,&quot;isUserDisabled&quot;:false}"></div></template></grammarly-desktop-integration></html>

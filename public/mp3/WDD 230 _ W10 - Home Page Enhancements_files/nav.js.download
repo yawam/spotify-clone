@@ -1,0 +1,19 @@
+const nav = `
+  <span><a href="https://byui-cse.github.io/wdd230-course">Home</a></span>
+  <span><a href="https://byui-cse.github.io/wdd230-course/setup">⚙️</a></span>
+  <span><a href="https://byui-cse.github.io/wdd230-course/lesson01">1</a></span>
+  <span><a href="https://byui-cse.github.io/wdd230-course/lesson02">2</a></span>
+  <span><a href="https://byui-cse.github.io/wdd230-course/lesson03">3</a></span>
+  <span><a href="https://byui-cse.github.io/wdd230-course/lesson04">4</a></span>
+  <span><a href="https://byui-cse.github.io/wdd230-course/lesson05">5</a></span>
+  <span><a href="https://byui-cse.github.io/wdd230-course/lesson06">6</a></span>
+  <span><a href="https://byui-cse.github.io/wdd230-course/lesson07">7</a></span>
+  <span><a href="https://byui-cse.github.io/wdd230-course/lesson08">8</a></span>
+  <span><a href="https://byui-cse.github.io/wdd230-course/lesson09">9</a></span>
+  <span><a href="https://byui-cse.github.io/wdd230-course/lesson10">10</a></span>
+  <span><a href="https://byui-cse.github.io/wdd230-course/lesson11">11</a></span>
+  <span><a href="https://byui-cse.github.io/wdd230-course/lesson12">12</a></span>
+  <span><a href="https://byui-cse.github.io/wdd230-course/lesson13">13</a></span>
+  <span><a href="https://byui-cse.github.io/wdd230-course/lesson14">14</a></span>`;
+
+document.querySelector('nav').innerHTML = nav;
